@@ -1,11 +1,45 @@
-﻿bin/
+﻿# Build results
+bin/
 obj/
+
+# Rider / IntelliJ
+.idea/
+
+# Visual Studio
+.vs/
 *.user
 *.suo
+
+# VS Code
 .vscode/
+
+# Logs
 *.log
-*.cache
+
+# Database files (opcional – cuidado!)
 *.db
-*.DS_Store
-*.vs/
-Dependencies/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+*.cache
+
+# NuGet Packages
+packages/
+*.nupkg
+
+# Test results
+TestResults/
+*.trx
+
+# DotCover
+*.dcvr
+
+# User-specific files
+*.userprefs
+
+# Others
+*.tmp
+*.bak
